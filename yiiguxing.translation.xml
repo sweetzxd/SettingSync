@@ -15,4 +15,7 @@
       </map>
     </option>
   </component>
+  <component name="Settings">
+    <option name="translator" value="ai.youdao" />
+  </component>
 </application>
