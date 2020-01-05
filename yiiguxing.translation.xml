@@ -1,0 +1,18 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="To sync IDE settings, you should be logged in to your JetBrains Account. To log in, install JetBrains Toolbox and enter your credentials there. Restart the IDE after you log in." />
+      <item value="查询所有人员" />
+      <item value="user List" />
+      <item value="Response Status" />
+      <item value="ResponseStatus" />
+      <item value="user" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="4" />
+        <entry key="ENGLISH" value="4" />
+      </map>
+    </option>
+  </component>
+</application>
