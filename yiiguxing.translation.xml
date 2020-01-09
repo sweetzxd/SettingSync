@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="备份" />
       <item value=" Create Default Context" />
       <item value="Unmapped Spring configuration files found. &#9;&#9;Please configure Spring facet or use 'Create Default Context' to add one including all unmapped files." />
       <item value="Unable to import maven project: See logs for details" />
@@ -15,7 +16,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="4" />
-        <entry key="ENGLISH" value="4" />
+        <entry key="ENGLISH" value="5" />
       </map>
     </option>
   </component>
