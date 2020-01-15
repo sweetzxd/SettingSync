@@ -16,6 +16,6 @@
     </option>
   </component>
   <component name="Settings">
-    <option name="translator" value="ai.youdao" />
+    <option name="ignoreRegExp" value="" />
   </component>
 </application>
