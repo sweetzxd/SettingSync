@@ -1,6 +1,6 @@
 <templateSet group="MyGroup">
-  <template name="*" value="**&#10; * @description: $name$&#10; *&#10; * @author: 甄旭东 &#10; * @date: $date$ $time$ &#10; * @version: 1.0.0 &#10; *&#10; $param$ &#10; * @return: $return$ &#10; */" description="添加注释" toReformat="false" toShortenFQNames="true">
-    <variable name="name" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+  <template name="zs" value="**&#10; * @description: $name$&#10; *&#10; * @author: 甄旭东 &#10; * @date: $date$ $time$ &#10; * @version: 1.0.0 &#10; *&#10; $param$ &#10; * @return: $return$ &#10; */" description="添加注释" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="methodName()" defaultValue="methodName()" alwaysStopAt="true" />
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
     <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
     <variable name="param" expression="groovyScript(&quot;def result=''; def params=\&quot;${_1}\&quot;.replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i &lt; params.size(); i++) {result+='* @param: ' + params[i] + ((i &lt; params.size() - 1) ? '\\n ' : '')};return result&quot;, methodParameters())" defaultValue="" alwaysStopAt="true" />
@@ -27,6 +27,17 @@
   <template name="@a4" value="@ApiOperation(value = &quot;&quot;, notes = &quot;&quot;)&#10;@ApiImplicitParams({&#10;        @ApiImplicitParam(name = &quot;&quot;, value = &quot;&quot;, required = true, dataType = &quot;&quot;),&#10;        @ApiImplicitParam(name = &quot;&quot;, value = &quot;&quot;, required = true, dataType = &quot;&quot;),&#10;        @ApiImplicitParam(name = &quot;&quot;, value = &quot;&quot;, required = true, dataType = &quot;&quot;),&#10;        @ApiImplicitParam(name = &quot;&quot;, value = &quot;&quot;, required = true, dataType = &quot;&quot;),&#10;})" description="swagger注释（4个参数）" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="z1" value="/**&#10; * @description: $name$&#10; *&#10; * @author: 甄旭东 &#10; * @date: $date$ $time$ &#10; * @version: 1.0.0 &#10; */" description="简单注释" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="true" />
     </context>
   </template>
 </templateSet>
