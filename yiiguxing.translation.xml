@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="月" />
       <item value="No message available" />
       <item value="备份" />
       <item value=" Create Default Context" />
@@ -17,7 +18,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="5" />
-        <entry key="ENGLISH" value="5" />
+        <entry key="ENGLISH" value="6" />
       </map>
     </option>
   </component>
