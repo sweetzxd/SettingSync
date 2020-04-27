@@ -1,9 +1,10 @@
 <application>
   <component name="MaterialThemeConfig">
+    <option name="isHighContrast" value="true" />
     <option name="isWizardShown" value="true" />
-    <option name="pristineConfig" value="false" />
-    <option name="accentColor" value="ffb639" />
-    <option name="userId" value="-70d6e31e:170ec29f75c:-8000" />
+    <option name="accentColor" value="e98f32" />
+    <option name="selectedTheme" value="DARKER" />
+    <option name="userId" value="254b76d4:171a646f893:-8000" />
     <option name="version" value="3.5.0.1" />
   </component>
 </application>
