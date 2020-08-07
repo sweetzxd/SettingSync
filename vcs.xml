@@ -22,6 +22,10 @@
           <option name="url" value="http://27.185.2.130:2193/telecom/telecom_human.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@27.185.2.130:telecom/telecom_human.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="E:\IDEA" />
